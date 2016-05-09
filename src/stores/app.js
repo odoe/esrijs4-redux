@@ -2,7 +2,7 @@ import { subscribe } from 'dojo/topic';
 
 import BaseStore from './_base';
 
-import { LOAD_MAP, VIEW_READY } from '../constants/app';
+import { LOAD_MAP } from '../constants/app';
 import reducer from '../reducers/app';
 
 const initialState = {
