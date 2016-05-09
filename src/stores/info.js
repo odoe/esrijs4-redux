@@ -1,6 +1,6 @@
 import { subscribe } from 'dojo/topic';
 
-import BaseStore from './_base';
+import BaseStore from './base';
 
 import { VIEW_READY } from '../constants/app';
 import reducer from '../reducers/info';
