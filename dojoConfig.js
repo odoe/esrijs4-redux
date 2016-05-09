@@ -11,7 +11,7 @@ window.dojoConfig = {
     main: 'react-dom-15.0.1'
   }, {
     name: 'app',
-    location: location.pathname.replace(/\/[^\/]+$/, '') + 'dist',
+    location: location.pathname.replace(/\/[^\/]+$/, '') + '/dist',
     main: 'main'
   }]
 };
