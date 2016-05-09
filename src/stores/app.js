@@ -1,6 +1,6 @@
 import { subscribe } from 'dojo/topic';
 
-import BaseStore from './_base';
+import BaseStore from './base';
 
 import { LOAD_MAP } from '../constants/app';
 import reducer from '../reducers/app';
